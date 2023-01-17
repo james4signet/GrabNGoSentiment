@@ -1,0 +1,20 @@
+
+
+{
+    "manifest_version": 2,
+    "name": "Extract Highlighted Text",
+    "description": "Extracts highlighted text from web pages and sends it through the Google Cloud API",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://your-server-url.com/"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
