@@ -18,6 +18,8 @@ Grabngo is a Chrome-based widget that performs instant but basic sentiment analy
 
 * You need to authenticate the client to be able to call the API, the analyzeSentiment is a function that call the Google Cloud API, this function takes as an input a request object that contains the text to be analyzed and the features that you want to extract from the text.
 
+* If you were to do any server-side processing, you would need a **serverside.js** file that would handle that logic. For example, if you needed to send the selected text to a server and have that server process the text and return the result, then you would need a serverside.js file that makes the request to the server and handles the response. But as mentioned earlier, in the case I've described all the logic is handled by the browser.
+
 # Dependencies
 
 1. content script, browser action, and context menu, it also contains the code for storing the selected text in the browser's local storage and sending it to the Google Cloud API.
