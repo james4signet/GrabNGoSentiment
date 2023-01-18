@@ -1,0 +1,10 @@
+
+In this example, the server is using the express framework to handle the HTTP requests and the body-parser middleware to parse the JSON data in the request body. The server is listening on port 3000 and it has a single endpoint '/process-text' that listens to POST requests.
+
+The endpoint takes the text that is passed in the request body, processes it using the processText() function, then it sends the processed text to the Google Cloud API using the request module, and the result is sent back to the client.
+
+It's important to note that, you need to have the express, request, and body-parser packages installed in your project, you can install them by running npm install express request body-parser in your terminal. Also, you should replace the apiKey in the headers object with your actual API key.
+
+Also, to run this code you need to have Node.js installed on your machine, and you can run this code by executing node server.js in your terminal, this command will start the server on port 3000 and you can send your requests to the endpoint.
+
+Please keep in mind that this is a simple example for illustration purposes only, in a real-world scenario you may need to handle errors and edge cases, also you should consider the security and the user's privacy when processing the text.
