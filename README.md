@@ -1,3 +1,6 @@
+![repo banner](https://github.com/jameschrisa/GrabNGoSentiment/blob/main/4.png "gng banner")
+
+
 # GrabNGoSentiment
 Widget to perform on-the-fly sentiment and keyword analysis
 
